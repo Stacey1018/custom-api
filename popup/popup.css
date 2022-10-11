@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  button {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: none;
+  }
+  
+  .pop-up-wrap {
+    width: 400px;
+    background: #eee;
+  }
+  
+  .pop-up-title {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    border-bottom: #ccc 1px solid;
+  }
+  
+  .pop-up {
+    padding: 10px 20px 20px;
+    display: none;
+  }
+  
+  .pop-up-content-wrap {
+    padding: 10px;
+    background: #fff;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+  }
+  
+  .pop-up-content {
+    display: none;
+    max-height: 500px;
+    overflow: auto;
+  }
+  
+  .pop-up-content span {
+    display: block;
+    word-wrap: break-word;
+  }
+
+  
+  .pop-up-fail {
+    display: none;
+  }
+  
+  .copy-btn-wrap {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .copy-btn {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background: rgba(0, 216, 201, .8);
+    border-radius: 6px;
+  }
+  
+  .copy-success-wrap {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background: rgba(235, 235, 235, .8);
+    border-radius: 10px;
+    display: none;
+  }
+  
+  .copy-success-text{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .ztreeContent{
+    background-color: #fff;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  .code{
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .pop-up-content-code{
+    height: 300px;
+    overflow: auto;
+  }
